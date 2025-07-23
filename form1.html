@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicPackage-Forever</title>
+    <style>
+        body{
+            margin:0px;
+            background-color:palevioletred;
+        }
+        div{
+            border:2px solid white;
+            background-color:lavenderblush;
+            box-shadow:5px 5px 10px grey;
+            width:650px;
+            height:1015px;
+            margin-left:30%;
+            margin-top:1%;
+            margin-bottom:1%;
+        }
+        p{
+            font-size:20px;
+            font-family:cursive;
+            margin-left:10px;
+        }
+        p.text{
+            font-size:20px;
+            font-family:cursive; 
+            margin-left:25%;
+        }
+        input{
+            padding:1.5%;
+        }
+        select{
+            padding:1.5%;
+        }
+        input.validate{
+            margin-left:25%;
+        }
+    </style>
+</head>
+<body>
+    <form action="form1.php" method="post">
+        <div>
+            <img src="form.webp" width="650px">
+            <p>You chose BASIC PACKAGE.Fill the below details for confirmation.</p>
+            <p class="text">Name: <input type="text" name="name" placeholder="Your Name" required></p>
+            <p class="text">Email: <input type="text" name="email" placeholder="Your Email" required></p>
+            <p class="text">Phone[Wattsapp number if possible]: <input type="number" name="phone" placeholder="Your Phone" required></p>
+            <p class="text">City:
+                <select id="city" name="city" required>
+                    <option value="">Select a city</option>
+                    <option value="Punjagutta">Punjagutta</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Vijayawada">Vijayawada</option>
+                    <option value="Guntur">Guntur</option>
+                    <option value="Secunderabad">Secunderabad</option>
+                </select required>
+            </p>
+            <p class="text">State:
+                <select id="state" name="state" required>
+                    <option value="">Select a state</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Telangana">Telangana</option>
+                </select required>
+            </p>
+            <p class="text">No Of Guests: <br> <input type="radio" name="guests" value="<5000" required>less than 5000 <br> <input type="radio" name="guests" value="5000-10,000" required>5000 to 10,000 <br> <input type="radio" name="guests" value=">10,000" required>10,000+</p>
+            <input type="submit" value="Confirm" class="validate">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,422 @@
+body{
+    margin:0px;
+}
+div.navbar{
+    display:flex;
+    padding:1%;
+    padding-left:7.5%;
+    font-size:25px;
+    background-color:lavenderblush;
+}
+div.navbar a{
+    padding:10px;
+    padding-bottom:10px;
+    text-decoration:none;
+    color:black;
+}
+div.navbar a:hover{
+    color:rgb(101, 61, 101);
+    text-decoration:underline;
+}
+/***********************************************Home Page***********************************************************/
+body.home{
+    background-image:url('bd2.avif');
+    background-position:absolute;
+    background-size:cover;
+}
+h1.text-overlayh{ 
+    position:absolute;
+    top:30%;
+    left:35%;
+    font-size:100px;
+    font-style:oblique;
+    color:rgb(101, 61, 101);
+}
+p.text-overlayh{ 
+    position:absolute;
+    top:45%;
+    left:35%;
+    right:35%;
+    font-size:50px;
+    font-style:oblique;
+    color:rgb(101, 61, 101);
+}
+/********************************************About Page************************************************************/
+div.ltside1{
+    display:inline-block;
+    width:50%;
+    margin:40px;
+    border:1px solid palevioletred;
+}
+div.rtside1{
+    display:inline-block; 
+    width:40%;
+    margin-top:10%;
+    margin-right:30px;
+    position:absolute;
+}
+h1.about{
+    font-style:italic;
+    font-size:50px;
+    color:palevioletred;
+}
+h2.about{
+    font-style:normal;
+    font-size:30px;
+}
+div.ltside2{
+    display:inline-block;
+    width:45%;
+    margin:40px;
+}
+div.rtside2{
+    display:inline-block; 
+    width:46%;
+    height:80%;
+    margin-right:20px;
+    position:absolute;
+    border:1px solid palevioletred;
+}
+div.head1{
+    width:auto;
+    margin-left:300px;
+    margin-right:300px;
+
+}
+div.side1{
+    display:inline-block;
+    border:2px solid white;
+    background-color:white;
+    width:22%;
+    height:50%;
+    margin:17px;
+    box-shadow:5px 5px 10px grey;
+}
+div.side2{
+    display:inline-block;
+    border:2px solid white;
+    background-color:white;
+    width:22%;
+    height:50%;
+    margin:17px;
+    box-shadow:5px 5px 10px grey;
+}
+div.side3{
+    display:inline-block;
+    border:2px solid white;
+    background-color:white;
+    width:22%;
+    height:50%;
+    margin:17px;
+    box-shadow:5px 5px 10px grey;
+}
+div.side4{
+    display:inline-block;
+    border:2px solid white;
+    background-color:white;
+    width:22%;
+    height:50%;
+    margin:17px;
+    box-shadow:5px 5px 10px grey;
+}
+a.a:hover img{
+    transform:scale(1.1);
+}
+a.ab{
+    font-size:30px;
+    font-style:oblique;
+    color:black;
+    text-decoration:none;
+}
+a.ab:hover{
+    color:palevioletred;
+}
+div.left{
+    display:inline-block;
+    width:625px;
+    margin:2.5%; 
+}
+div.right{
+    position:absolute;
+    display:inline-block;
+    width:625px;
+    margin:2.5%; 
+}
+h1.ab{
+    font-style:oblique;  
+}
+div.head2{
+    background-image:url('a11.jpg');
+    width:100%;
+    height:250px;
+}
+h1.abt{
+    font-style:italic;
+    font-size:50px;
+    color:rgb(101, 61, 101);
+    position:absolute;
+    margin-top:7%;
+    margin-left:20%;
+}
+div.s1{
+    display:inline-block;
+    border-radius:50%;
+    margin:20px;
+}
+div.s2{
+    display:inline-block;
+    border-radius:50%;
+    margin:20px;
+}
+div.s3{
+    display:inline-block;
+    border-radius:50%;
+    margin:20px;
+}
+div.s4{
+    display:inline-block;
+    border-radius:50%;
+    margin:20px;
+}
+img.s1{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+}
+/*********************************************o******************************************************************/
+div.l{
+    display:inline-block;
+    width:560px;
+    height:560px;
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    margin-top:5%;
+    margin-left:12%;
+}
+div.r{
+    display:inline-block;
+    position:absolute;
+    width:560px;
+    height:560px;
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    margin-top:5%;
+    margin-left:10px;
+}
+div.inner{
+    padding-left:6%;
+}
+h1.o{
+    font-style:oblique;
+    font-size:30px;
+    margin-top:5%;
+    margin-left:12%;
+}
+/**********************************************services***********************************************************/
+div.rs{
+    display:inline-block; 
+    width:30%; 
+    height:50%;
+    margin:2%; 
+    padding:1%;
+    position:absolute;
+    background-color:floralwhite;
+}
+div.rs a{
+    font-size:20px;
+    text-decoration:none;
+    color:grey;
+    font-style:oblique;
+}
+/**********************************************Portfolio Page*********************************************************/
+div.l1{
+    display:inline-block;
+    width:fit-content;
+    height:fit-content;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:7%;
+}
+div.r1{
+    display:inline-block;
+    position:absolute;
+    width:550px;
+    height:fit-content;
+    margin-top:5%;
+    margin-left:7%;
+}
+div.inner1{
+    width:350px;
+    height:fit-content;
+}
+/**********************************************Shop***************************************************************/
+div.packs{
+    margin-bottom:10px;
+    height:fit-content;
+}
+div.basic{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:80px;
+    width:25%;
+}
+div.standard{
+    position:absolute;
+    display:inline-block;
+    margin-top:20px;
+    margin-left:75px;
+    width:25%;
+}
+div.luxury{
+    display:inline-block;
+    position:absolute;
+    margin-top:20px;
+    margin-left:500px;
+    width:25%;
+}
+h1.plan{
+    font-style:italic;
+    color:palevioletred;
+}
+h2.plan{
+    font-style:italic;
+}
+/*********************************************Blog Page***********************************************************/
+div.lside{
+    display:inline-block; 
+    width:60%; 
+    margin:2%;  
+}
+div.rside{
+    display:inline-block; 
+    width:30%; 
+    height:50%;
+    margin:2%; 
+    padding:1%;
+    background-color:lavenderblush;
+    position:absolute;
+}
+div.rside a{
+    font-size:20px;
+    text-decoration:none;
+    color:grey;
+    font-style:oblique;
+}
+div.rside a:hover{
+    color:palevioletred;
+}
+p i{
+    padding-top:5px;
+}
+h1.blog{
+    font-style:oblique;
+    text-decoration:underline;
+}
+p.blog{
+    color:grey;
+    font-size:20px;
+    font-style:oblique;
+}
+div.pages a{
+    text-decoration:none;
+    color:black;
+    font-style:oblique;
+}
+a.pages{
+    padding:20px;
+    font-size:20px;
+    background-color:palevioletred; 
+    margin-left:20px;
+    border-radius:5%;
+}
+/*********************************************Contact Page********************************************************/
+h1.text-overlay{ 
+    position:absolute;
+    top:30%;
+    left:70%;
+    font-size:60px;
+    font-style:oblique;
+}
+div.address{
+    display:inline-block;
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    width:350px;
+    height:300px;
+    margin:35px;
+    padding:20px;
+}
+div.email{
+    display:inline-block;
+    position:absolute;
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    width:350px;
+    height:300px;
+    margin:40px;
+    padding:20px;
+}
+div.phone{
+    display:inline-block;
+    position:absolute;
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    width:350px;
+    height:300px;
+    margin-top:35px;
+    margin-left:500px;
+    padding:20px;
+}
+p{
+    color:grey;
+    font-size:20px;
+    font-style:oblique;
+}
+div.text{
+    border:2px solid white;
+    background-color:white;
+    box-shadow:5px 5px 10px grey;
+    margin-left:250px;
+    margin-right:250px;
+    margin-bottom:100px;
+    margin-top:20px;
+}
+input{
+    padding:20px;
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:solid black;
+}
+textarea{
+    padding:20px;
+    width:835px;
+    height:100px;
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:solid black; 
+}
+input.message{
+    padding-right:76.5%;
+}
+/***********************************************************Footer*****************************************************/
+div.footer{
+    padding:10%;
+    background-color:lavenderblush;
+}
+div.footer a{
+    padding:10px;
+    text-decoration:none;
+    color:black;
+}
+div.footer a:hover{
+    color:rgb(101, 61, 101);
+    text-decoration:underline;
+}
